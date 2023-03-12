@@ -55,7 +55,7 @@
   isHome: false,
   isHighlightShrink: false,
   isToc: false,
-  postUpdate: '2023-03-12 14:10:13'
+  postUpdate: '2023-03-12 14:27:16'
 }</script><noscript><style type="text/css">
   #nav {
     opacity: 1
@@ -198,7 +198,7 @@
   }
 
   const getComment = () => {
-    fetch('https://api.github.com/repos/one-thread/my_blog/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
+    fetch('https://api.github.com/repos/one-thread/blog_talk/issues/comments?sort=updated&direction=desc&per_page=6&page=1',{
       "headers": {
         Accept: 'application/vnd.github.v3.html+json'
       }
